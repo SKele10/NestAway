@@ -1,0 +1,291 @@
+[{
+  "_id": {
+    "$oid": "663bfe9fff05d577c9f150c8"
+  },
+  "houseType": "Home",
+  "address": {
+    "country": "United States",
+    "country_code": "us",
+    "state": "New Jersey",
+    "county": "Hudson County",
+    "city": "Jersey City",
+    "postcode": "07307",
+    "street": "Ogden Avenue",
+    "housenumber": "382",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -74.04142075510204,
+        40.74674712244898
+      ]
+    },
+    "state_code": "NJ",
+    "result_type": "building",
+    "formatted": "382 Ogden Avenue, Jersey City, NJ 07307, United States of America",
+    "address_line1": "382 Ogden Avenue",
+    "address_line2": "Jersey City, NJ 07307, United States of America"
+  },
+  "features": {
+    "maxGuests": 3,
+    "bedrooms": 2,
+    "beds": 2,
+    "bathrooms": 1
+  },
+  "amenities": {
+    "wifi": true,
+    "tv": true,
+    "ac": true,
+    "kitchen": true,
+    "parking": false,
+    "pool": true,
+    "gym": true,
+    "hotTub": false,
+    "fireplace": false,
+    "washer": true,
+    "dryer": true,
+    "heating": true,
+    "smokeDetector": true,
+    "carbonMonoxideDetector": true,
+    "firstAidKit": true,
+    "fireExtinguisher": true
+  },
+  "settings": {
+    "cancellationDays": 6,
+    "cancellationPercent": 69,
+    "changeDays": 6
+  },
+  "rules": {
+    "checkIn": 12,
+    "checkOut": 10,
+    "smoking": false,
+    "pets": true
+  },
+  "photos": {
+    "main": "https://res.cloudinary.com/dif0nigdy/image/upload/v1715207666/nestaway/1_ageeet.webp",
+    "images": [
+      "https://res.cloudinary.com/dif0nigdy/image/upload/v1715207666/nestaway/1_ageeet.webp",
+      "https://res.cloudinary.com/dif0nigdy/image/upload/v1715207698/nestaway/2_vtqc8p.webp",
+      "https://res.cloudinary.com/dif0nigdy/image/upload/v1715207701/nestaway/3_kigiuo.webp"
+    ]
+  },
+  "title": "Dream House",
+  "description": "Dream House to Stay",
+  "isInstantBooking": null,
+  "price": 300,
+  "currency": "USD",
+  "hostId": "Xmy1WOcORIhBtNGc2RtEQFSVDtW2",
+  "createdAt": {
+    "$date": "2024-05-08T22:37:19.425Z"
+  },
+  "isApproved": true,
+  "isDeleted": false,
+  "updatedAt": {
+    "$date": "2024-05-08T22:47:03.934Z"
+  },
+  "bookings": [
+    {
+      "bookingId": {
+        "$oid": "663c039903757a5569c7743b"
+      },
+      "uid": "ewJu26aLzyYBXO8Hwh678EUtM9L2",
+      "checkIn": {
+        "$date": "2024-05-15T04:00:00.000Z"
+      },
+      "checkOut": {
+        "$date": "2024-05-16T04:00:00.000Z"
+      },
+      "totalPrice": 442.6,
+      "createdAt": {
+        "$date": "2024-05-08T22:58:33.646Z"
+      },
+      "status": "approved"
+    },
+    {
+      "bookingId": {
+        "$oid": "663c06dd2ac6c690a00ac516"
+      },
+      "uid": "QiEQoZcC47YjBUqih8Fmq6yfqUj2",
+      "checkIn": {
+        "$date": "2024-06-13T04:00:00.000Z"
+      },
+      "checkOut": {
+        "$date": "2024-06-18T04:00:00.000Z"
+      },
+      "totalPrice": 1813,
+      "createdAt": {
+        "$date": "2024-05-08T23:12:29.556Z"
+      },
+      "status": "pending"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "663c0084ff05d577c9f150c9"
+  },
+  "houseType": "Loft",
+  "address": {
+    "country": "United States",
+    "country_code": "us",
+    "state": "New York",
+    "county": "Suffolk County",
+    "city": "Huntington",
+    "postcode": "11743",
+    "street": "New York Avenue",
+    "housenumber": "333",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -73.426424,
+        40.870853
+      ]
+    },
+    "state_code": "NY",
+    "result_type": "building",
+    "formatted": "333 New York Avenue, Huntington, NY 11743, United States of America",
+    "address_line1": "333 New York Avenue",
+    "address_line2": "Huntington, NY 11743, United States of America"
+  },
+  "features": {
+    "maxGuests": 4,
+    "bedrooms": 2,
+    "beds": 2,
+    "bathrooms": 1
+  },
+  "amenities": {
+    "wifi": true,
+    "tv": true,
+    "ac": true,
+    "kitchen": true,
+    "parking": true,
+    "pool": false,
+    "gym": false,
+    "hotTub": false,
+    "fireplace": false,
+    "washer": true,
+    "dryer": true,
+    "heating": true,
+    "smokeDetector": true,
+    "carbonMonoxideDetector": true,
+    "firstAidKit": true,
+    "fireExtinguisher": true
+  },
+  "settings": {
+    "cancellationDays": 1,
+    "cancellationPercent": 20,
+    "changeDays": 4
+  },
+  "rules": {
+    "checkIn": 15,
+    "checkOut": 11,
+    "smoking": false,
+    "pets": true
+  },
+  "photos": {
+    "main": "https://res.cloudinary.com/dif0nigdy/image/upload/v1715208272/nestaway/1_j8d7vy.jpg",
+    "images": [
+      "https://res.cloudinary.com/dif0nigdy/image/upload/v1715208272/nestaway/1_j8d7vy.jpg",
+      "https://res.cloudinary.com/dif0nigdy/image/upload/v1715208279/nestaway/2_vmuujc.webp",
+      "https://res.cloudinary.com/dif0nigdy/image/upload/v1715208282/nestaway/3_zjzqip.jpg"
+    ]
+  },
+  "title": "Loft of Dreams",
+  "description": "Best Loft Apartment in Newyork",
+  "isInstantBooking": null,
+  "price": 350,
+  "currency": "USD",
+  "hostId": "Xmy1WOcORIhBtNGc2RtEQFSVDtW2",
+  "createdAt": {
+    "$date": "2024-05-08T22:45:24.433Z"
+  },
+  "isApproved": false,
+  "isDeleted": false,
+  "updatedAt": {
+    "$date": "2024-05-08T22:45:24.433Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "663c064b2ac6c690a00ac514"
+  },
+  "houseType": "Mobile Home",
+  "address": {
+    "country": "United States",
+    "country_code": "us",
+    "state": "New Jersey",
+    "county": "Morris County",
+    "city": "Lake Hopatcong",
+    "postcode": "07849",
+    "street": "New York Avenue",
+    "housenumber": "66",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -74.627313,
+        40.965232
+      ]
+    },
+    "state_code": "NJ",
+    "result_type": "building",
+    "formatted": "66 New York Avenue, Lake Hopatcong, NJ 07849, United States of America",
+    "address_line1": "66 New York Avenue",
+    "address_line2": "Lake Hopatcong, NJ 07849, United States of America"
+  },
+  "features": {
+    "maxGuests": 4,
+    "bedrooms": 2,
+    "beds": 2,
+    "bathrooms": 1
+  },
+  "amenities": {
+    "wifi": true,
+    "tv": true,
+    "ac": true,
+    "kitchen": true,
+    "parking": true,
+    "pool": false,
+    "gym": false,
+    "hotTub": false,
+    "fireplace": false,
+    "washer": true,
+    "dryer": true,
+    "heating": false,
+    "smokeDetector": true,
+    "carbonMonoxideDetector": true,
+    "firstAidKit": false,
+    "fireExtinguisher": false
+  },
+  "settings": {
+    "cancellationDays": 7,
+    "cancellationPercent": 83,
+    "changeDays": 6
+  },
+  "rules": {
+    "checkIn": 14,
+    "checkOut": 10,
+    "smoking": false,
+    "pets": false
+  },
+  "photos": {
+    "main": "https://res.cloudinary.com/dif0nigdy/image/upload/v1715209766/nestaway/Totteridge-Home-interior_lvji6o.jpg",
+    "images": [
+      "https://res.cloudinary.com/dif0nigdy/image/upload/v1715209766/nestaway/Totteridge-Home-interior_lvji6o.jpg",
+      "https://res.cloudinary.com/dif0nigdy/image/upload/v1715209770/nestaway/istockphoto-1393537665-612x612_l4ycs3.jpg",
+      "https://res.cloudinary.com/dif0nigdy/image/upload/v1715209773/nestaway/AIMCO_apartment_interior_p0kkkw.jpg"
+    ]
+  },
+  "title": "Old New York",
+  "description": "Great Place",
+  "isInstantBooking": null,
+  "price": 550,
+  "currency": "USD",
+  "hostId": "0tI0QkDXiGVY4jL5Ld0KAg6CEzJ3",
+  "createdAt": {
+    "$date": "2024-05-08T23:10:03.224Z"
+  },
+  "isApproved": true,
+  "isDeleted": false,
+  "updatedAt": {
+    "$date": "2024-05-08T23:10:03.224Z"
+  }
+}]

@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Didact+Gothic&display=swap");
+/* @import url("react-leaflet-markercluster/dist/styles.min.css");
+@import url("leaflet/dist/leaflet.css"); */
+
+@import "primereact/resources/themes/lara-light-blue/theme.css"
+  layer(primereact);
+
+@layer tailwind-base, primereact, tailwind-utilities;
+@layer tailwind-base {
+  @tailwind base;
+}
+
+@layer tailwind-utilities {
+  @tailwind components;
+  @tailwind utilities;
+}
+
+/* Light Theme Colors */
+html[data-theme="light"] {
+  --color-primary: #32610e; /* Green */
+  --color-secondary: #dddddd; /* Gray */
+  --color-tertiary: #005f87; /* Red */
+  --color-accent1: #eeeeee; /* Light Gray */
+  --color-accent2: #444444; /* Dark Gray */
+  --color-info: #0087af; /* Dark Cyan */
+  --color-error: #d80908; /* Dark Red */
+  --color-warning: #f49e00; /* Orange */
+  --color-action: #005faf; /* Dark Blue */
+}
+
+/* Dark Theme Colors */
+html[data-theme="dark"] {
+  --color-primary: #af87d7; /* Gold */
+  --color-secondary: #808080; /* Light Gray */
+  --color-tertiary: #d7875f; /* Green */
+  --color-accent1: #1c1c1c; /* Black */
+  --color-accent2: #d0d0d0; /* Gray */
+  --color-info: #5fafd7; /* Light Cyan */
+  --color-error: #f07a86; /* Light Red */
+  --color-warning: #f49e00; /* Orange */
+  --color-action: #00afaf; /* Light Brown */
+}
+
+:root {
+  --font-comic: "Comic Neue", sans-serif;
+  --font-didact: "Didact Gothic", sans-serif;
+}
+
+.leaflet-popup-content {
+  margin: 0px;
+}
+.leaflet-popup-content-wrapper {
+  padding: 0px;
+}
+
+.p-stepper-number {
+  @apply bg-primary text-accent1;
+}
+
+.p-icon,
+.p-dialog-header-close-icon {
+  @apply text-accent2;
+}
+
+.p-dialog-content,
+.p-dialog-header,
+.p-stepper-panels,
+.p-autocomplete-item,
+.p-dialog-footer,
+.p-dropdown-item {
+  @apply bg-accent1 text-accent2;
+}
+.p-autocomplete-item:hover {
+  @apply bg-action text-accent1;
+}
+.p-stepper-action > .p-stepper-title {
+  @apply text-action;
+}
+.p-inputtext {
+  @apply text-accent2;
+}
+.p-inputtext::placeholder {
+  @apply text-accent2;
+}
+.search-date-input::placeholder {
+  @apply text-accent1;
+}
+.p-rating-item-active > svg {
+  @apply text-primary;
+}
+.p-dropdown-item.p-focus {
+  @apply bg-secondary;
+}
+.p-dropdown-clear-icon {
+  @apply mr-4;
+}
+.customLayerDark {
+  filter: invert(1) sepia(1) hue-rotate(160deg) grayscale(0.5) contrast(0.55);
+}
+
+.customLayerLight {
+  filter: invert(0) sepia(1) brightness(1.2) hue-rotate(170deg) saturate(20)
+    grayscale(1) contrast(0.8);
+}
